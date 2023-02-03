@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter&display=swap');
+
+
+
+.alfa {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.spin-button-none::-webkit-outer-spin-button,
+.spin-button-none::-webkit-inner-spin-button {
+    appearance: none;
+}
+.customAction .action-sheet-group{
+    color: red;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    font-size: 40px;
+}
+.customAction{}
